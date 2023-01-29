@@ -1,0 +1,25 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<Configuration status="INFO">-->
+<!--    <Appenders>-->
+<!--        <Console name="Console" target="SYSTEM_OUT">-->
+<!--            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%-5p] %c{1}:%L - %m%n"/>-->
+<!--            <LevelRangeFilter minLevel="FATAL" maxLevel="ALL" onMatch="ACCEPT" onMismatch="DENY"/>-->
+<!--        </Console>-->
+<!--        <RollingFile name="RollingFile1" fileName="src\main\resources\site.log"-->
+<!--                     filePattern="some file-%i.log" append="false">-->
+<!--            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%-5p] %c{1}:%L - %m%n"/>-->
+<!--            <SizeBasedTriggeringPolicy size="1MB"/>-->
+<!--            <DefaultRolloverStrategy max="10"/>-->
+<!--        </RollingFile>-->
+<!--    </Appenders>-->
+
+<!--    <Loggers>-->
+<!--        <Root level="debug">-->
+<!--            <AppenderRef ref="Console" level="debug"/>-->
+
+<!--            <AppenderRef ref="RollingFile1" level="debug"/>-->
+<!--            <AppenderRef ref="RollingFile2" level="error"/>-->
+
+<!--        </Root>-->
+<!--    </Loggers>-->
+<!--</Configuration>-->
