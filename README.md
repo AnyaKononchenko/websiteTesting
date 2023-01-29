@@ -1,0 +1,2 @@
+# Practice of Page Object Model usage
+This project is devoted to a website testing using POM as design pattern, which allows a Quality Engineer to create an object repository for storing web elements in Selenium. The main advantage of using POM lays in a possibility of each webpage representation as an independent Java Class.
